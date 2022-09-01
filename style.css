@@ -1,0 +1,120 @@
+html, body, div, ul, li, h1, h2, h3, a, p {
+    border: 0;
+    padding: 0;
+    margin: 0;
+    font: inherit;
+    font-size: 100%
+}
+.top {
+    background-color: black;
+    background-image: url(images/green-vegetables-on-brown-wooden-chopping-board-3952047.jpg);
+    background-repeat: no-repeat;
+    background-position: bottom;
+    background-size: cover;
+    height: 740px;
+}
+#nav {
+    height: 50px;
+    border-bottom: 2px solid white;
+    margin: 0 50px 0 50px;
+    display: flex;
+
+}
+.list {
+    list-style: none;
+    width: 100%;
+    display: flex;
+    align-items: flex-end;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    
+    
+}
+
+li {
+    display: flex;
+    flex-grow: 1;
+    
+}
+.home, .menu, .contact {
+    display:flex;
+    justify-content: flex-end;
+    padding: 0 0 0 10px;
+
+}
+.title {
+    display: flex;
+    flex-grow: 100;
+    font-size: 20px;
+}
+h1 {
+    color: white;
+    font-family: arial;
+    font-size: 80px;
+    font-weight: bolder;
+    height: 200px;
+    display:flex;
+    justify-content: center;
+    align-items: flex-end;
+    border-bottom: 2px solid white;
+    margin: 0 450px;
+
+}
+h2 {
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 40px;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    margin: 20px 0 0 0;
+}
+.logo {
+    height: 690px;
+    width: 100%;
+   
+
+}
+h3 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30px;
+    display: flex;
+    align-items: center;
+    padding: 100px 80px 0 80px;
+}
+p {
+    font-family: 'Montserrat', sans-serif;
+    display: flex;
+    align-items: center;
+    padding: 20px 80px 0 80px;
+
+}
+content {
+
+}
+.image1 {
+   float: left;
+}
+.image2 {
+    float: right;
+}
+.content1 {
+    color: white;
+    height: 300px;
+    background-color: rgb(18, 18, 18);
+
+}
+.content2 {
+    color: white;
+    height: 300px;
+    background-color: rgb(39, 39, 39);
+
+
+}
+.content3 {
+    color: white;
+    height: 300px;
+    background-color: rgb(59, 58, 58);
+
+
+}
